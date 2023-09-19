@@ -1,6 +1,10 @@
 <template>
 	<base-wrapper activeTabName="index">
 		index
+		
+		<navigator :url="'/subPackages/test/demo'">
+		    <up-button text="测试跳转" />
+		</navigator>
 	</base-wrapper>
 </template>
 
